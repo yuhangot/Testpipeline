@@ -12,11 +12,11 @@ checkout:
   stage: build
   script:
     - echo "Checkout"
-build:
-  stage: build
-  needs: ["checkout"]
-  script:
-    - echo "Building"
+#build:
+#  stage: build
+#  needs: ["checkout"]
+#  script:
+#    - echo "Building"
 test:
   stage: test
   script:
