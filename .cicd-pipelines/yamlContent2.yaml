@@ -3,7 +3,7 @@ stages:
   - test
   
 default:
-  name: pipeline2
+  name: pipeline
   docker:
     registry: docker.io
     image: openjdk:17-jdk-slim
